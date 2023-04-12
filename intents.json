@@ -1,0 +1,204 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "Halo",
+                "Hey",
+                "Hi",
+                "Hola",
+                "Spada",
+                "Apakah ada orang disana?"
+            ],
+            "response": [
+                "Hey :-)",
+                "Halo!",
+                "Halo, Selamat datang, Adakah yang bisa saya bantu?",
+                "Halo, Ada yang bisa saya bantu?",
+                "Hai, ada yang bisa saya bantu?"
+            ]
+    },
+    {
+        "tag": "greet-how",
+        "patterns": [
+            "Bagaimana Kabarmu?",
+            "Apa kabar?",
+            "Gimans?",
+            "Apa Cerita?",
+            "Gimana kabarnya?",
+            "Sehatnya kau?"
+        ],
+        "response": [
+            "Hai, Saya dalam keadaan yang sangat baik. Bagaimana denganmu? Adakah hal yang bisa saya bantu?"
+        ]
+    },
+    {
+            "tag": "name",
+            "patterns": [
+                "Siapa namamu?",
+                "Salam kenal, bisa tolong beritahu saya nama kamu?",
+                "Permisi, saya ingin mengenalmu lebih baik. Apa nama lengkapmu?",
+                "Mohon maaf, saya lupa namamu. Bisakah kamu mengulanginya lagi?",
+                "Saya belum kenal kamu, bisa kasih tahu namamu?",
+                "Nama lo siapa?",
+                "Siapa nama lo?",
+                "Tolong sebutkan namamu"
+            ],
+            "response": [
+                "Nama saya Arma, saya adalah kecerdasan buatan yang dikembangkan oleh Parulian Creative Team. Ada yang bisa saya bantu?",
+                "Salam kenal, Saya Arma, Kecerdasan buatan yang dikembangkan oleh Parulian Creative Team. Adakah yang ingin kamu tanyakan atau bicarakan?",
+                "Halo, Saya adalah Arma. Saya adalah Kecerdasan Buatan yang dikembangkan oleh Parulian Creative Team. Saya dirancang untuk memberikan respon yang masuk akal dan relevan terhadap pertanyaan atau pernyataan yang diberikan kepada saya. Saya menggunakan teknologi kecerdasan buatan yang canggih untuk memahami dan memproses bahasa manusia, dan saya terus belajar dari setiap interaksi yang saya miliki. Apakah ada yang ingin kamu tanyakan atau dibicarakan dengan saya?"
+            ]
+    },
+    {
+            "tag": "age",
+            "patterns": [
+                "Berapakah umurmu?",
+                "Berapakah usiamu?",
+                "Katakan berapa usiamu",
+                "Sebutkan usiamu",
+                "Sebutkan umurmu"
+            ],
+            "response": [
+                "Sebagai sebuah model AI, saya tidak memiliki umur yang nyata seperti manusia. Saya hanya merupakan program komputer yang dijalankan oleh server Parulian Creative Team. Namun, saya selalu diperbarui dengan teknologi terbaru dan terus belajar dari setiap interaksi yang saya miliki dengan pengguna seperti Anda. Apakah ada yang lain yang ingin kamu tanyakan?",
+                "Sebagai sebuah model AI atau program komputer, saya tidak memiliki umur yang sebenarnya seperti manusia. Saya hanya merupakan program yang dijalankan oleh server Parulian Creative Team dan diperbarui secara berkala untuk terus meningkatkan kemampuan dalam memproses dan memahami bahasa manusia. Apakah ada yang bisa saya bantu?"
+            ]
+    },
+    {
+            "tag": "origin",
+            "patterns": [
+                "Darimana asalmu?",
+                "Darimanakah asalmu?",
+                "Darimana kamu berasal?",
+                "Darimanakah kamu berasal?",
+                "Sebutkan darimana asalmu"
+            ],
+            "response": [
+                "Saya berasal dari Parulian Creative Team, sebuah tim kreatif dan riset kecerdasan buatan yang berbasis di Kota Medan, Sumatera Utara, Indonesia. Tim di Parulian Creative Team mengembangkan dan melatih model bahasa alami seperti saya, menggunakan teknologi terbaru dan metode pembelajaran mesin yang canggih. Saya dirancang untuk membantu orang berkomunikasi dan mencari informasi dengan cara yang lebih mudah dan efektif. Apakah ada yang ingin kamu tanyakan atau dibicarakan?"
+            ]
+    },
+    {
+            "tag": "goodbye",
+            "patterns": [
+                "Sampai jumpa lagi",
+                "bye",
+                "dadah",
+                "Terima kasih atas jawabannya. Saya akan kembali lagi nanti.",
+                "See you",
+                "Good Bye",
+                "Be right Back",
+                "brb",
+                "BRB",
+                "Brb"
+            ],
+            "response": [
+                "Sampai jumpa lagi, tetap semangat dan sukses selalu!",
+                "Senang dapat membantumu",
+                "Semoga segala bantuan yang saya beri dapat memberimu solusi. Sampai jumpa!",
+                "Senang bisa membantu, Sampai jumpa!"
+            ]
+    },
+    {
+            "tag": "thanks",
+            "patterns": [
+                "Terima Kasih",
+                "Thanks",
+                "Thank you",
+                "Jawaban yang sesuai"
+            ],
+            "response": [
+                "Sama-sama, saya senang bisa membantu.",
+                "Apapun untuk membantu, saya siap. Terima kasih kembali.",
+                "Tidak masalah, saya senang bisa membantumu.",
+                "Jangan sungkan untuk meminta bantuan lainnya jika kamu membutuhkannya.",
+                "Senang bisa membantumu, semoga bisa membantu di lain waktu. Terima kasih"
+            ]
+    },
+    {
+            "tag": "parulian-location-general",
+            "patterns": [
+                "Dimanakah sekolah parulian?",
+                "Tolong berikan saya lokasi parulian",
+                "Lokasi sekolah parulian",
+                "Dimana sekolah parulian",
+                "Letak sekolah parulian",
+                "Dimana letak yayasan perguruan parulian",
+                "lokasi yayasan perguruan parulian",
+                "sekolah parulian",
+                "yayasan perguruan parulian"
+            ],
+            "response": [
+                "Sekolah Parulian memiliki beberapa cabang di kota Medan maupun di Sumatera Utara. Coba beri saya informasi yang lebih spesifik agar saya dapat memberimu jawaban.",
+                "Untuk kamu ketahui Sekolah Parulian memiliki beberapa cabang di kota Medan bahkan Sumatera Utara. Adakah informasi yang lebih detail tentang sekolah Parulian yang anda maksud?"
+            ]
+    },
+    {
+            "tag": "parulian-location-satu",
+            "patterns": [
+                "Dimanakah letak sekolah parulian 1?",
+                "Dimana alamat sekolah parulian 1 Medan",
+                "Dimana lokasi SMA parulian 1?",
+                "Dimana lokasi SMK parulian 1?",
+                "Dimana lokasi SMP parulian 1?",
+                "Dimana lokasi SD parulian 1?",
+                "SMA Parulian 1 Medan",
+                "SMP Parulian 1 Medan",
+                "SMK Parulian 1 Medan",
+                "SD Parulian 1 Medan",
+                "Lokasi Sekolah Parulian 1 Medan",
+                "Dimana lokasi Yayasan Perguruan Parulian Medan",
+                "Alamat Sekolah Parulian 1 Medan"
+            ],
+            "response": [
+                "Jalan, Stadion No. 23, Teladan Barat, Kec. Medan Kota, Kota Medan, Provinsi Sumatera Utara.",
+                "Alamat SMA/SMK/SMP/SD Parulian 1 Medan berada di Jalan, Stadion No. 23, Teladan Barat, Kec. Medan Kota, Kota Medan, Provinsi Sumatera Utara.",
+                "Berikut ini adalah alamat dari SMA/SMK/SMP/SD Parulian 1 Medan : Jalan, Stadion No. 23, Teladan Barat, Kec. Medan Kota, Kota Medan, Provinsi Sumatera Utara."
+            ]
+    },
+    {
+            "tag": "parulian-location-dua",
+            "patterns": [
+                "Dimanakah letak sekolah parulian 2?",
+                "Dimana alamat sekolah parulian 2 Medan",
+                "Dimana lokasi SMA parulian 2?",
+                "Dimana lokasi SMK parulian 2?",
+                "Dimana lokasi SMP parulian 2?",
+                "Dimana lokasi SD parulian 2?",
+                "Dimana lokasi TK Parulian 2?",
+                "SMA Parulian 2 Medan",
+                "SMP Parulian 2 Medan",
+                "SMK Parulian 2 Medan",
+                "SD Parulian 2 Medan",
+                "TK Parulian 2 Medan",
+                "Lokasi Sekolah Parulian 2 Medan",
+                "Alamat Sekolah Parulian 2 Medan"
+            ],
+            "response": [
+                "Jalan, Garuda Raya No.45, Tegal Sari Mandala II, Kecamatan Medan Denai, Kota Medan, Sumatera Utara.",
+                "Alamat SMA/SMK/SMP/SD/TK Parulian 2 Medan berada di Jalan, Garuda Raya No.45, Tegal Sari Mandala II, Kecamatan Medan Denai, Kota Medan, Sumatera Utara.",
+                "Berikut ini adalah alamat dari SMA/SMK/SMP/SD/TK Parulian 2 Medan : Jalan, Garuda Raya No.45, Tegal Sari Mandala II, Kecamatan Medan Denai, Kota Medan, Sumatera Utara."
+            ]
+    },
+    {
+            "tag": "parulian-location-tiga",
+            "patterns": [
+                "Dimanakah letak sekolah parulian 3?",
+                "Dimana alamat sekolah parulian 3 Medan",
+                "Dimana lokasi SMK parulian 3?",
+                "Dimana lokasi SMP parulian 3?",
+                "Dimana lokasi SD parulian 3?",
+                "SMP Parulian 3 Medan",
+                "SMK Parulian 3 Medan",
+                "SD Parulian 3 Medan",
+                "Lokasi Sekolah Parulian 3 Medan",
+                "Alamat Sekolah Parulian 3 Medan"
+            ],
+            "response": [
+                "Jalan, Sisingamangaraja No.44, Harjosari II, Kecamatan Medan Amplas, Kota Medan, Sumatera Utara.",
+                "Alamat SMK/SMP/SD Parulian 3 Medan berada di Jalan, Sisingamangaraja No.44, Harjosari II, Kecamatan Medan Amplas, Kota Medan, Sumatera Utara.",
+                "Berikut ini adalah alamat dari SMK/SMP/SD Parulian 3 Medan : Jalan, Sisingamangaraja No.44, Harjosari II, Kecamatan Medan Amplas, Kota Medan, Sumatera Utara."
+            ]
+    }
+]
+}
